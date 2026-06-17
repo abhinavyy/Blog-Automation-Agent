@@ -8,17 +8,17 @@ An autonomous, cloud-based content generation agent built with **LangGraph**. It
 
 Here is how the agent processes your content pipeline:
 
-![Agent Pipeline Flow](agent_flow_diagram.png)
+<img width="2470" height="634" alt="image" src="https://github.com/user-attachments/assets/4ecc96c0-6cb3-4650-8e8c-d3b0faa43919" />
+<img width="2426" height="886" alt="image" src="https://github.com/user-attachments/assets/7c6ea109-ee81-44c5-988a-589cce83c63c" />
+
 
 ---
 
 ## 🛠️ Features
 
 - **Google Workspace Integration**: Seamlessly fetches inputs from Google Sheets and writes content directly to Google Docs.
-- **Dynamic Headings Styling**: Converts raw markdown tags (`#`, `##`, `###`) into styled, native document headings in Google Docs.
 - **Hybrid Content Evaluation**: Auto-rates every post on word counts, structure, and qualitative dimensions (SEO, coherence, actionability) using an LLM-as-a-Judge.
 - **Background Watch Mode**: Can run continuously (`--watch` mode) to poll the Google Sheet and automate new entries instantly.
-- **Error Resilience**: Wraps tasks individually to prevent pipeline crashes if a single row has an error.
 
 ---
 
@@ -119,5 +119,3 @@ The evaluator (`agent/evaluator.py`) ensures generated content meets quality sta
 
 ---
 
-## 🔒 Security Note
-Credential files (`google_creds.json`, `token.json`, and the `credentials/` folder) and your `.env` configuration are ignored by Git in `.gitignore` to prevent secret leaks.
