@@ -1,0 +1,20 @@
+# Google OAuth Credentials and Tokens
+credentials/google_creds.json
+credentials/token.json
+google_creds.json
+token.json
+
+# Python Virtual Environment and Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# OS metadata
+.DS_Store
+Thumbs.db
