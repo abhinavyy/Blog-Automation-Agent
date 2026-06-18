@@ -19,4 +19,4 @@ Professional but conversational. Avoid jargon. Write for a business audience who
 === RULES ===
 - Never fabricate statistics without sourcing them
 - Always include a practical takeaway in each section
-- End with a call-to-action paragraph
+- End with a strong call-to-action paragraph
